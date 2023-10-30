@@ -1,0 +1,72 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hero {
+    background-image: url('imagen-hero.jpg'); /* Reemplaza con la URL de tu imagen de fondo */
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding: 2rem;
+}
+
+.features {
+    margin-top: 20px;
+}
+
+/* Estilos para el botón de llamada a la acción (CTA) */
+.cta-button {
+    display: inline-block;
+    background-color: #0074e4;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    background-color: #0057a0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
